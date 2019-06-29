@@ -35,9 +35,17 @@
 	transition: bottom 10000ms;
 }
 
-.rocket.flying{
+body.body-state1 .rocket{
+	transition: none;
+}
+
+
+
+body.body-state4 .rocket,
+body.body-state3 .rocket{
 	bottom: 1000px;
 }
+
 
 .state1,
 .state2,
